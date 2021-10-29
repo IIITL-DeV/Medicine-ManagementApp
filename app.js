@@ -15,7 +15,7 @@ var express     = require('express'),
     moment      = require('moment'),
     nodemailer  = require('nodemailer');
 
-var cron = require('node-cron');
+// var cron = require('node-cron');
 
 
 var medicineRoutes = require('./routes/medicine'),

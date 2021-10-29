@@ -1,0 +1,362 @@
+html{
+  scroll-behavior: smooth;
+}
+.Welcome h1{
+  font-size:400%;
+}
+.NewMedCont{
+  height:500px;
+
+}
+.upload{
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upload h1{
+  width:200px;
+}
+.class102{
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.class101{
+  background-color:rgb(20,20,20);
+  color: white;
+  /* margin-left: 30px; */
+  border:1px solid #FFFFDB;
+}
+.NewMedCont button{
+  background-color:rgb(20,20,20);
+  color: white;
+  /* margin-left: 30px; */
+  border:1px solid #FFFFDB;
+}
+.bottom_medicine{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.BOX{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_medicine a{
+  height: 40px;
+  width:200px;
+  background-color: #212121;
+  color:#E3E3E3;
+  text-decoration: none;
+  border:2px solid #E3E3E3 ;
+  background-color:rgb(20,20,20);
+  border:1px solid #FFFFDB;
+}
+.contact_details{
+  color:white;
+  font-size: 10px;
+}
+.Extra2{
+  padding:100px;
+  background-color: rgb(20,20,20);
+  height: 400px;
+  color:#FFFFDB;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.contact_details{
+  font-size: 200%;
+  color:white;
+}
+
+.Extra1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20,20,20);
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+.Extra1 textarea{
+  height:100px;
+  width: 300px;
+  border-radius: 5%;
+  color:black;
+  padding:0.5%;
+  font-size: 120%;
+}
+.Extra1 button{
+  background-color:rgb(20,20,20);
+  margin-left: 30px;
+  border:1px solid #FFFFDB;
+}
+.a3{
+  height: 40px;
+  width:200px;
+  background-color: #212121;
+  color:#E3E3E3;
+  text-decoration: none;
+  border:2px solid #E3E3E3 ;
+  background-color:rgb(20,20,20);
+  border:1px solid #FFFFDB;
+}
+.ss{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.ss p{
+  text-align-last:center;
+  max-width: 400px;
+  font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+  }
+  .Nav{
+    background-color: #212121;
+  }
+.navbar{
+  margin-bottom: 0;
+  border-bottom:3px solid black;
+  border-radius: 0;
+}
+.Nav a{
+  color:#E3E3E3;
+}
+.MainC{
+  background-color: #F5F5F5;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Extra{
+  display:flex;
+  margin:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20,20,20);
+  align-content: center;
+  flex-wrap: wrap;
+  height: 200px;
+  color:#FFFFDB;
+
+}
+.Extra a{
+  color:#FFFFDA;
+  text-decoration: none;
+  background-color:rgb(20,20,20);
+  border:1px solid #FFFFDB;
+
+
+}
+.Extra h2{
+  /* color:#FFFFDB; */
+  margin-bottom: 0;
+  max-width: 700px;
+  text-align-last:center;
+
+}
+.Extra h4{
+  /* color:#FFFFDB; */
+  margin-top: 0;
+  padding:5px;
+  /* max-width: 400px; */
+
+
+
+}
+.Welcome{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height:400px;
+  /* background-color: #23d5ab; */
+
+
+}
+
+.leftAdd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom_medicine{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+  .fr {
+    background: linear-gradient(-45deg, #f2f2f2, #e6e6e6, #737373,#666666, #e6f7ff,	 #e6e6ff, #ffe6ff,#ffe6e6,#ffffe6,#e6ffe6,#e6fff2);
+
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    height: 100vh;
+    /* background-color: ; */
+    /* margin-bottom: 20px; */
+    height: 600px;
+    width: 100%;
+  }
+  .box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background: #121212;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px;
+    border-radius: 10%;
+  }
+
+  .box input[type="text"],.box input[type="email"],
+  .box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FFFFDB;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+
+  .box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .box input[type="text"]:focus,
+  .box input[type="password"]:focus {
+    width: 300px;
+    border-color: #FFFFDB;
+  }
+
+  .box button[type="submit"] {
+    border: 0;
+    /* background: none;. */
+    background-color: #212121;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FFFFDB;
+    padding: 14px 40px;
+    outline: none;
+    color: #FFFFDB;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+
+  .box button[type="submit"]:hover {
+    background: white;
+    color: black;
+  }
+
+  .forgot {
+    text-decoration: underline;
+  }
+
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .social-network a.icoFacebook:hover {
+    background-color: #3b5998;
+  }
+
+  .social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+  }
+
+  .social-network a.icoGoogle:hover {
+    background-color: #bd3518;
+  }
+
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoTwitter:hover i,
+  .social-network a.icoGoogle:hover i {
+    color: #fff;
+  }
+
+  a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44bcdd;
+  }
+
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .social-circle li a:hover i,
+  .triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+  }
+
+  .social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  a:hover{
+    background: gray;
+    color: black;
+  }

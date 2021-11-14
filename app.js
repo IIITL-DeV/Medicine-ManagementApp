@@ -15,7 +15,7 @@ var express     = require('express'),
     moment      = require('moment'),
     nodemailer  = require('nodemailer');
 
-// var cron = require('node-cron');
+var cron = require('node-cron');
 
 
 var medicineRoutes = require('./routes/medicine'),
@@ -60,9 +60,9 @@ app.use(authRoutes);
 app.use(notesRoutes);
 // setInterval(Time  , 1000);
 
-// cron.schedule('* * * * *', () => {
-//     Time();
-//   });
+cron.schedule('* * * * *', () => {
+    Time();
+  });
 
 
 app.listen(8080 || process.env.PORT, process.env.IP, function(){

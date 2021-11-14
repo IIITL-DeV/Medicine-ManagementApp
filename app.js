@@ -65,7 +65,7 @@ app.use(notesRoutes);
 //   });
 
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(8080 || process.env.PORT, process.env.IP, function(){
     console.log("The MediLona Server Started");
  });
 
